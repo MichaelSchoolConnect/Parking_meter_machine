@@ -31,6 +31,4 @@ public class TestMainActivity {
         onView(withId(R.id.button)).perform(click());
     }
 
-
-
 }

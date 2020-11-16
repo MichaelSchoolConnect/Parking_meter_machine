@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     Activity context = MainActivity.this;
 
+    /**
+    * Holds variable for the cost and amount from the user input
+    * */
     private EditText cost;
     private EditText amount;
 
@@ -28,10 +31,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.button).setOnClickListener(this);
     }
 
+    /**
+     * The solution you tasked me with.
+     * */
     double payTicket(double amount, double cost){
         return amount - cost;
     }
 
+    /**
+     * An AlertDialog that shows the change.
+     * */
     void showReceipt(double change){
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle(R.string.alert_dialog_title);
