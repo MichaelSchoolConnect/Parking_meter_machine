@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Parking meter machine</string>
+    <string name="okay">Got it</string>
+    <string name="enter_amount">Enter amount:</string>
+    <string name="deduct">Enter</string>
+    <string name="enter_amount_hint">R 0.0</string>
+    <string name="enter_ticket_cost">Enter ticket cost:</string>
+    <string name="pay">Pay</string>
+    <string name="alert_dialog_title">Receipt:</string>
+    <string name="error">Amount cannout be empty.</string>
+</resources>
